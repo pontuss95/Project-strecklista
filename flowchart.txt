@@ -1,0 +1,51 @@
+c = int[100] %antal öl.
+
+void init()
+    Fråga om vad datum/klockslag är
+    Läsa igenom databasen och uppdatera c med antal öl per användare
+
+
+    
+    
+
+end
+
+while(1)
+    
+    p = readRFID();
+    
+    p = readkeypad();
+    p = [antal öl, id] Int[]
+    
+    if(p[0] != 0)
+
+        kolla så att p är rimlig (typ p.lenght == 2)
+        köp p[0] öl på p[1] personen.
+
+        gneomför köp
+        strecka i .txt
+        p[0] = 0;
+
+    end
+
+end
+
+
+cahr* readRFID(){
+    läs rfid
+    hämta personligt-id från txt
+    vänta på mer input/#(OK)/5 sekunder timer går ut
+
+    returnera p=[1,id] om tiden går ut/ ingen mer input ges
+    annars returnera p=[antal öl, id]
+}
+
+char* readkeypad(){
+
+    while(input != # || input != clear)
+    läs in ID i format. XX#
+    Fråga antal öl.
+    om 2 sek går 1 öl om # 1 öl.
+    
+
+}
